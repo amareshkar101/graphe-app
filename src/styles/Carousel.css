@@ -1,0 +1,180 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel {
+  width: 50%;
+  margin: 0rem auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.slide .carousel-img {
+  width: 250px;
+  margin-top: 30px;
+  margin-left: 200px;
+  padding-top: 0;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  width: 30px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow .left-arrow {
+  width: 100px;
+}
+
+.arrow .right-arrow {
+  width: 100px;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.next {
+  right: 0%;
+  top: 40%;
+}
+
+.prev {
+  left: -10%;
+  top: 40%;
+}
+
+.message {
+  margin-left: 30px;
+  width: 30px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -16px;
+  left: 950px;
+  right: 140px;
+  background-color: #d9d9d9;
+  color: #fbfbfb;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.receipt {
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.tax {
+  width: 80px;
+  height: 15px;
+  color: black;
+  background-color: #c5c5c5;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:480px) {
+
+
+  .carousel {
+    width: 50%;
+    margin: 0rem auto;
+    margin-top: 70px;
+  }
+  
+  .slide {
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .slide .carousel-img {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 0;
+  }
+  
+  .activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .arrow {
+    width: 0px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow .left-arrow {
+    width: 80px;
+  }
+  
+  .arrow .right-arrow {
+    width: 80px;
+  }
+  
+  .arrow svg {
+    transition: color 300ms;
+  }
+  
+  .next {
+    right: -10%;
+    top: 30%;
+  }
+  
+  .prev {
+    left: -45%;
+    top: 30%;
+  }
+  
+  
+  .message {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 30px;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: -180px;
+    left: 230px;
+    right:0px;
+    background-color: #d9d9d9;
+    color: #fbfbfb;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px 0px 0px 30px;
+  }
+  
+  .receipt {
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+  
+  .tax {
+    width: 80px;
+    height: 15px;
+    color: black;
+    background-color: #c5c5c5;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+  
+}

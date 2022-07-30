@@ -1,0 +1,194 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo-div {
+    margin-left: 0px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 40px;
+}
+
+.mid-div {
+    display: flex;
+    margin-left: 100px;
+}
+
+.profile {
+    width: 50px;
+    margin-left: 210px;
+    border: 5px solid #f1f1f1;
+    border-radius: 50px;
+}
+
+.bag-div {
+    width: 150px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.bag {
+    width: 30px;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+    margin-top: 0;
+    border: 10px solid #f1f1f1;
+
+}
+
+.location-div {
+    display: flex;
+    margin-left: 20px;
+}
+
+.location {
+    width: 60px;
+}
+
+.location-text {
+    margin-top: 20px;
+    color: #bbbbbb;
+}
+
+.cart-div {
+    margin-left: 350px;
+    margin-top: 15px;
+}
+
+.cart {
+    width: 30px;
+}
+
+.below {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 590px;
+}
+
+.text-div {
+    width: 50px;
+    height: 30px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+
+}
+
+.text-div p {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2px;
+    margin-left: 15px;
+    color:
+        #bbbbbb;
+}
+
+.wishlist {
+    width: 30px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:480px) {
+    .navbar {
+        display: flex;
+        width: 50%;
+        margin-top: 30px;
+    }
+
+
+    .logo {
+        width: 50px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+
+    .mid-div {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .profile {
+        width: 25px;
+        height: 25px;
+        margin-left: 30px;
+        border: 2px solid #f1f1f1;
+        border-radius: 50px;
+    }
+
+    .bag-div {
+        width: 100px;
+        height: 35px;
+        background-color: #f1f1f1;
+        border-radius: 40px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .bag {
+        width: 15px;
+        background-color: #f1f1f1;
+        margin-left: 25px;
+        border: 10px solid #f1f1f1;
+
+    }
+
+    .location-div {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .location {
+        width: 25px;
+        height: 30px;
+    }
+
+    .location-text {
+        margin-top: 0px;
+        margin-left: 5px;
+        color: #bbbbbb;
+    }
+
+    .cart-div {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .cart {
+        width: 25px;
+    }
+
+    .below {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 170px;
+    }
+
+    .text-div {
+        width: 50px;
+        height: 30px;
+        background-color: #f1f1f1;
+        border-radius: 30px;
+
+    }
+
+    .text-div p {
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 2px;
+        margin-left: 15px;
+        color:
+            #bbbbbb;
+    }
+
+    .wishlist {
+        width: 30px;
+        margin-left: 5px;
+    }
+
+}
